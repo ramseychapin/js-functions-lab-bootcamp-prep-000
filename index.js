@@ -4,7 +4,8 @@ function happyHolidays() {
 
 
 function happyHolidaysTo(name) {
-  return "Happy holidays, ${name}!"
+  var answer = "Happy holidays, ${name}!"
+  return answer
 }
 
 function happyHolidayTo(holiday, name) {
@@ -13,5 +14,6 @@ function happyHolidayTo(holiday, name) {
 }
 
 function holidayCountdown(holiday, name) {
-  return 'It\'s ${days} days until ${holiday}!'
+  var answer = 'It\'s ${days} days until ${holiday}!'
+  return answer
 }
